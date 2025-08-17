@@ -31,7 +31,7 @@ The objective of each team is to eliminate the opposing team.
 
 ## AI Features
 
-1. Finite State Machine (FSM)
+1. Finite State Machine (FSM)\n
    Characters switch between states like Patrolling, Chasing, Attacking, Reloading, Requesting Help.
    Decision-making is dynamic and depends on health, ammo, and environment.
 
