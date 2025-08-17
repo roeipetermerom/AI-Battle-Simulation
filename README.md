@@ -1,18 +1,18 @@
-## AI-Battle-Simulation
+# AI-Battle-Simulation
 Two teams of computer-controlled characters fight for survival in a dungeon full of rooms, corridors, supplies, and obstacles.
 
 The project demonstrates how artificial intelligence can be used to create smart decision-making characters in a game environment.
 
 ## Features
 
-🕹 Two Teams – each with 2 Fighters + 1 Carrier
-🔫 Combat System – single-shot bullets and grenades
-💊 Supplies – random ammo & health depots on the map
-🧱 Obstacles & Cover – characters can hide strategically
-🤝 Teamwork – carriers deliver ammo/health to teammates
-🎭 Personalities – aggressive or cautious fighters
-🗺 Pathfinding – A* algorithm for navigation
-🔄 Decision Making – Finite State Machine (FSM) controls goals and priorities
+🕹 Two Teams – each with 2 Fighters + 1 Carrier<br>
+🔫 Combat System – single-shot bullets and grenades<br>
+💊 Supplies – random ammo & health depots on the map<br>
+🧱 Obstacles & Cover – characters can hide strategically<br>
+🤝 Teamwork – carriers deliver ammo/health to teammates<br>
+🎭 Personalities – aggressive or cautious fighters<br>
+🗺 Pathfinding – A* algorithm for navigation<br>
+🔄 Decision Making – Finite State Machine (FSM) controls goals and priorities<br>
 ⚡ Dynamic Safety Maps – movement adapts to ongoing battles
 
 ## Gameplay Description
@@ -23,20 +23,19 @@ The simulation consists of two teams, each containing:
 
 The objective of each team is to eliminate the opposing team.
 
-# Environment
-
+Environment:
 - The world is a dungeon map with rooms and corridors.
 - Ammo depots and health supplies (2 of each type) are placed randomly on the map.
 - Obstacles are scattered in rooms, creating cover zones that can be used tactically.
 
 ## AI Features
 
-1. Finite State Machine (FSM)\n
-   Characters switch between states like Patrolling, Chasing, Attacking, Reloading, Requesting Help.
+1. **Finite State Machine (FSM)**  
+   Characters switch between states like *Patrolling, Chasing, Attacking, Reloading, Requesting Help*.<br>
    Decision-making is dynamic and depends on health, ammo, and environment.
 
-2. Pathfinding with A*
-   Characters move intelligently across rooms and corridors.
+2. **Pathfinding with A\***  
+   Characters move intelligently across rooms and corridors.<br>
    When a battle occurs, the safety map is updated, forcing characters to re-evaluate their paths.
 
 4. Personality System
@@ -46,8 +45,8 @@ The objective of each team is to eliminate the opposing team.
    
    Different team compositions may lead to different outcomes.
 
-5. Teamwork
-   Carriers do not fight but deliver ammo and health kits.
+5. **Teamwork**  
+   Carriers do not fight but deliver ammo and health kits.<br>
    Fighters can request supplies when needed.
 
 6. Combat System
