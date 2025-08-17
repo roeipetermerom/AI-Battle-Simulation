@@ -34,26 +34,26 @@ Environment:
    Characters switch between states like *Patrolling, Chasing, Attacking, Reloading, Requesting Help*.<br>
    Decision-making is dynamic and depends on health, ammo, and environment.
 
-2. **Pathfinding with A\***  
+2. **Pathfinding with A***  
    Characters move intelligently across rooms and corridors.<br>
    When a battle occurs, the safety map is updated, forcing characters to re-evaluate their paths.
 
-4. Personality System
-   Each fighter is assigned random traits:
-   - Aggressive (prefers combat)
-   - Cautious (avoids unnecessary risks)
-   
+3. **Personality System**  
+   Each fighter is assigned random traits:  
+   - Aggressive (prefers combat)  
+   - Cautious (avoids unnecessary risks)  
+
    Different team compositions may lead to different outcomes.
 
-5. **Teamwork**  
+4. **Teamwork**  
    Carriers do not fight but deliver ammo and health kits.<br>
    Fighters can request supplies when needed.
 
-6. Combat System
-   Two attack types are supported:
-   - Single bullet shots
-   - Grenade throws
-   
+5. **Combat System**  
+   Two attack types are supported:  
+   - Single bullet shots  
+   - Grenade throws  
+
    No friendly fire between teammates.
 
 ## Tech Stack
